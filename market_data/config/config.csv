@@ -1,0 +1,94 @@
+parameter,value,comment
+# COMPOSITE TREND SCORE WEIGHTS,,Trend_score = weighted blend of 4 components. Weights renormalize over whatever is available on a bar.
+trend_w_ema,0.35,"EMA ribbon: price location + stacking + slope. The smoothest, laggiest view."
+trend_w_supertrend,0.25,Supertrend: direction plus distance from the line. Volatility-anchored.
+trend_w_adx,0.2,ADX strength SIGNED by DI direction. Raw ADX is directionless.
+trend_w_structure,0.2,Market structure: HH+HL vs LH+LL swing sequence. Discrete price action.
+,,
+# TREND SUB-SCORE CALIBRATION,,How each raw indicator maps onto the shared 0-100 scale.
+trend_st_saturate_pct,6.0,ST_dist_pct treated as fully extended. Median on daily equities ~5pct.
+trend_adx_saturate,32.0,ADX treated as a fully developed trend. Textbook 40 is too high for daily NSE data.
+trend_adx_floor,15.0,ADX below this = chop; the ADX sub-score stays at 50 instead of voting.
+,,
+# TREND BANDS AND GATING,,Cut points for Trend_band and the minimum evidence required.
+trend_band_strong_bull,75.0,Trend_score at or above this reads Strong Bull.
+trend_band_bull,60.0,Trend_score at or above this reads Bull.
+trend_band_neutral,40.0,Trend_score at or above this reads Neutral.
+trend_band_bear,25.0,Trend_score at or above this reads Bear; below it Strong Bear.
+trend_agree_min,3,Components on the same side of 50 before agreement is confirmed vs mixed.
+trend_min_components,3,Components required before Trend_score is emitted at all.
+,,
+,,
+# COMPOSITE MOMENTUM SCORE WEIGHTS,,Momentum_score = weighted blend of 4 components. Note these correlate 0.8-0.9 with each other.
+mom_w_rsi,0.30,RSI: normalized recent gains vs losses. Correlates ~0.9 with Stoch.
+mom_w_roc,0.30,ROC: raw rate of change over the headline horizon.
+mom_w_macd,0.25,MACD histogram: acceleration. The only component measuring something different.
+mom_w_stoch,0.15,Stochastic pctK: position in recent range. Noisiest of the four.
+,,
+# MOMENTUM SUB-SCORE CALIBRATION,,How each raw indicator maps onto the shared 0-100 scale.
+mom_macd_z_sat,2.0,MACD_hist_z treated as fully extended before the tanh squash.
+mom_stoch_damp,0.80,Pulls pctK toward 50; below 1 damps the noisiest component.
+,,
+# MOMENTUM BANDS AND GATING,,Cut points for Momentum_band and minimum evidence required.
+mom_band_strong_bull,70.0,Momentum_score at or above this reads Strong Bullish.
+mom_band_bull,58.0,Momentum_score at or above this reads Bullish.
+mom_band_neutral,42.0,Momentum_score at or above this reads Neutral.
+mom_band_bear,30.0,At or above this reads Bearish; below it Strong Bearish.
+mom_agree_min,3,Components on the same side of 50 before agreement is confirmed.
+mom_min_components,3,Components required before Momentum_score is emitted at all.
+mom_extreme_rsi_hi,70.0,RSI at or above this plus Stoch overbought = flagged stretched.
+mom_extreme_rsi_lo,30.0,RSI at or below this plus Stoch oversold = flagged stretched.
+,,
+# COMPOSITE VOLATILITY SCORE WEIGHTS,,"DIRECTIONLESS: 0=compressed, 100=expanded. NOT bearish-to-bullish. Never rank direction on this."
+vol_w_bb,0.30,"Bollinger bandwidth percentile. Close-based, ignores gaps."
+vol_w_atr,0.30,"ATR percentile. True-range based, so it reacts to overnight gaps."
+vol_w_donchian,0.20,Donchian width percentile. Tracks BB closely (corr ~0.93).
+vol_w_keltner,0.20,Keltner width percentile. Tracks ATR closely (corr ~0.96) - it IS ATR based.
+,,
+# VOLATILITY CALIBRATION AND BANDS,,All components ranked over the SAME window or the blend is incoherent.
+vol_width_pctl_win,252,"Shared percentile window. BB is re-ranked here, not reusing bb_squeeze_win."
+vol_band_very_low,20.0,Volatility_score below this reads Very Low.
+vol_band_low,40.0,Below this reads Low.
+vol_band_high,60.0,At or above this reads High.
+vol_band_very_high,80.0,At or above this reads Very High.
+vol_min_components,3,Components required before Volatility_score is emitted.
+vol_squeeze_min,2,"Squeeze-capable components (BB, Keltner) that must agree for Confirmed."
+vol_expansion_lb,10,Lookback for the expanding/contracting classification.
+vol_expansion_jump,20.0,Score rise over that lookback counting as genuine expansion.
+vol_release_window,15,Bars after a squeeze in which expansion is still called a release.
+# RELATIVE STRENGTH BENCHMARKS,,Index rows must also exist in symbols.csv with kind=index.
+bench_symbols,"NIFTY50,NIFTY500","Raw CSV filename stems in raw/equity, comma separated."
+bench_labels,"NIFTY50,NIFTY500","Prefixes used in field names, e.g. RS_NIFTY50_excess_pct."
+rs_primary,NIFTY50,Which benchmark drives RS_score and RS_state.
+rs_roc_period,63,Bars for the excess-return window. 63 is about 3 months.
+rs_saturate_pct,20.0,Outperformance pct treated as fully extended for RS_score.
+,,
+,,
+# OUTPUT COLUMN VISIBILITY,,Hidden fields are still COMPUTED - every score uses them. Hiding only affects the written CSV.
+show_all_fields,0,Set to 1 to ignore hidden_fields entirely and emit all columns. Fastest way to get everything back.
+hidden_fields,"EMA_9,EMA_21,px_vs_EMA_9,px_vs_EMA_21,px_vs_EMA_50,px_vs_EMA_200,EMA_9_slope,EMA_21_slope,EMA_50_slope,EMA_200_slope,EMA_location_score,EMA_structure_score,EMA_slope_score,EMA_ribbon_n,EMA_score_basis,ST_line,ST_dir,ST_dist_pct,ST_bars_since_flip,MS_event,MS_swing_high,MS_swing_low,MS_last_HH,MS_last_HL,MS_last_LH,MS_last_LL,Trend_supertrend_sub,Trend_adx_sub,Trend_structure_sub,Trend_bull_components,Trend_bear_components,Trend_components_n,Trend_score_basis,RS_NIFTY50_excess_pct,RS_NIFTY50_slope,RS_NIFTY50_pctl,RS_NIFTY500_excess_pct,RS_NIFTY500_slope,RS_NIFTY500_pctl,RSI_upper,RSI_lower,RSI_z,RSI_basis,MACD_hist,PPO,MACD_hist_z,Stoch_K,Stoch_D,Stoch_cross,ROC_5,ROC_21,ROC_63,ROC_126,ROC_5_z,ROC_21_z,ROC_63_z,ROC_126_z,ROC_5_z_basis,ROC_21_z_basis,ROC_63_z_basis,ROC_126_z_basis,Mom_macd_sub,Momentum_bull_components,Momentum_bear_components,Momentum_distinct_views,Momentum_score_basis,BB_upper,BB_mid,BB_lower,BB_pctB,BB_bandwidth,BB_bandwidth_pctl,BB_squeeze,ADX_14,DI_plus,DI_minus,ATR_14,ATR_pct,ATR_pctl,ATR_regime,DC_upper,DC_mid,DC_lower,DC_width_pct,DC_pct_rank,DC_bars_since_breakout,KC_upper,KC_mid,KC_lower,KC_width_pct,KC_pct_rank,KC_state,KC_squeeze_ratio,KC_squeeze_pctl,KC_squeeze,KC_squeeze_bars,KC_squeeze_release,BB_width_pctl,DC_width_pctl,KC_width_pctl,Volatility_squeeze_n,Volatility_bars_since_squeeze,Volatility_distinct_views,Volatility_gap_premium,Volatility_components_n,Volatility_score_basis,Stop_long,Stop_short,Setup,VWAP,VWAP_roll,px_vs_VWAP_pct,px_vs_VWAP_roll_pct,VWMA,Vol_SMA_fast,Vol_SMA_slow,Vol_ratio,Vol_z,Vol_pctile,Vol_spike,OBV,OBV_slope,AD,ADOSC,PVT,EFI,EOM,Stage,Stage_maturity_pct,Stage_start_date,Stage_start_price,Stage_return_pct,Stage_transition,Prev_stage,Stage_MA,Stage_MA_slope",Comma-separated. Delete a name from this list to make that column reappear. Date/OHLCV can never be hidden.
+# CORE INDICATOR PARAMETERS,,Adjust with care: these change every downstream score.
+ema_periods,"9,21,50,200","EMA ribbon periods, fast to slow."
+supertrend_length,10,Supertrend ATR period.
+supertrend_mult,3.0,Supertrend ATR multiplier. Consider 4 for volatile smallcaps.
+adx_length,14,ADX and DI period.
+min_rows,250,Skip symbols with fewer rows. 250 is where EMA_200 becomes meaningful.
+,,
+# FINAL DECISION LAYER,,Sequential gate over Stage->Trend->Momentum->Volume->Volatility. NOT an average of the 5 scores.
+decide_trend_long,60.0,Trend_score above this permits a long.
+decide_trend_short,40.0,Trend_score below this permits a short.
+decide_stage_conf,50.0,"Stage_confidence below this = regime unclear, stand aside."
+decide_allow_short,1,0 = long-only book; stage-4 setups become STAND ASIDE.
+decide_require_volume,1,1 = thin volume downgrades a confirmed entry to ENTER SMALL.
+decide_vol_extended,80.0,"Volatility_score above this + expanding = late, size down."
+,,
+# FINAL SCORE (0-100),,"Numeric companion to Final_decision. 50=neutral, >50 long-actionable, <50 short. Gate sets a ceiling; strength fills it."
+score_cap_stage_block,50.0,Max score once the stage gate blocks (pinned neutral).
+score_cap_trend_block,62.0,Max once trend is unconfirmed or ambiguous.
+score_cap_momentum_veto,70.0,Max once momentum is stretched or diverging.
+score_cap_volume_veto,80.0,Max once volume is thin.
+score_cap_vol_extended,85.0,Max once a confirmed setup is volatility-extended.
+score_w_trend,0.45,Weight of Trend in the directional fill.
+score_w_momentum,0.3,Weight of Momentum.
+score_w_volume,0.15,Weight of volume confirmation.
+score_w_stage,0.1,Weight of stage confidence.

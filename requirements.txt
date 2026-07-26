@@ -1,0 +1,4 @@
+pandas==3.0.3
+numpy==2.2.6
+pandas-ta==0.4.71b0
+yfinance==1.5.1
