@@ -44,7 +44,10 @@ import pandas as pd
 import pandas_ta as ta
 
 # ---- default base path mirrors bulk_load.py --------------------------------
-DEFAULT_BASE = Path(r"C:\Data\Trading\StockData\market_data")
+# Resolved relative to this file (script/../ = market_data/) rather than
+# hardcoded, so the same code works unmodified in any clone location --
+# including a CI runner, where C:\Data\... simply doesn't exist.
+DEFAULT_BASE = Path(__file__).resolve().parent.parent
 
 # ---- DEFAULTS --------------------------------------------------------------
 # Every value below can be overridden in  BASE/config/config.csv  (parameter,value).

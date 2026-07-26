@@ -1,0 +1,54 @@
+name: Daily TA update
+
+on:
+  schedule:
+    # 12:15 UTC = 17:45 IST, well after NSE's 15:30 IST close (buffer for
+    # Yahoo's data to settle). Weekdays only -- GitHub Actions cron has no
+    # market-holiday calendar, so it still fires on NSE holidays; the run
+    # just finds nothing new and the commit step below becomes a no-op.
+    - cron: "15 12 * * 1-5"
+  workflow_dispatch: {}   # "Run workflow" button in the Actions tab, for manual/on-demand runs
+
+permissions:
+  contents: write   # required to commit the refreshed data back to this repo
+
+concurrency:
+  group: daily-ta-update
+  cancel-in-progress: false   # let an in-flight run finish rather than clobbering it
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch latest OHLCV (full backfill on first run, incremental after)
+        run: python market_data/script/incremental_update.py
+
+      - name: Compute technical indicators
+        run: python market_data/script/compute_ta.py
+
+      - name: Rank symbols
+        run: python market_data/script/rank_symbols.py
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # -f: these paths are gitignored locally (regenerated data, not meant
+          # to be hand-edited) but this workflow is precisely what's meant to
+          # version them, so it deliberately overrides that.
+          git add -f market_data/raw market_data/ta market_data/metadata
+          if git diff --cached --quiet; then
+            echo "No data changes (holiday/weekend, or nothing new) -- skipping commit."
+          else
+            git commit -m "Data update: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

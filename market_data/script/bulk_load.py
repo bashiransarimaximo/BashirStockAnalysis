@@ -21,7 +21,10 @@ from pathlib import Path
 import pandas as pd
 import yfinance as yf
 
-BASE = Path(r"C:\Data\Trading\StockData\market_data")
+# Resolved relative to this file (script/../ = market_data/) rather than
+# hardcoded, so the same code works unmodified in any clone location --
+# including a CI runner, where C:\Data\... simply doesn't exist.
+BASE = Path(__file__).resolve().parent.parent
 RAW = BASE / "raw" / "equity"
 RAW.mkdir(parents=True, exist_ok=True)
 
