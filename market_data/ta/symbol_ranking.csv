@@ -1,87 +1,88 @@
 Rank,Symbol,Portfolio,Trend_score,Final_score,Final_score_category,Old_Final_score,Old_Final_score_category,RS_agreement,RSI_14,RSI_state,EMA_score,Below_EMA_200,ST_state,Momentum_band,ROC_composite,Volatility_band,Vol_trend,Stage,Final_description
-1,SGMART,N,100.0,75.9,B,75.18,B,,75.679,Overbought,100.0,,Uptrend,,,,Rising,"2 - Advancing (late, conf 84, 140d)","2 - Advancing, trend 100 long confirmed but participation is thin - reduce size, breakouts without volume fail more often"
-2,HBLENGINE,N,87.62,70.33,B,72.14,B,,65.6406,Overbought,82.92,,Uptrend,,,,Falling,"2 - Advancing (early, conf 84, 13d)","2 - Advancing, trend 88 long confirmed but participation is thin - reduce size, breakouts without volume fail more often"
-3,TRENT,Y,87.01,68.05,B,50.0,C,,61.1597,Neutral,75.55,,Uptrend,,,,Rising,"2 - Advancing (early, conf 64, 4d)","2 - Advancing, trend 87 with bullish confirmed, momentum and volume confirm; early in the stage"
-4,ATHERENERG,Y,73.33,62.0,C,74.61,B,,69.0029,Neutral,100.0,,Uptrend,,,,Rising,"2 - Advancing (late, conf 84, 225d)","2 - Advancing, trend 73 but components disagree - wait for alignment"
-5,CPPLUS,N,80.62,62.0,C,58.41,C,,46.342,Neutral,89.87,,Downtrend,,,,Falling,"2 - Advancing (late, conf 84, 163d)","2 - Advancing, trend 81 but components disagree - wait for alignment"
-6,AIMTRON,Y,81.76,62.0,C,55.29,C,Leads both,53.9013,Neutral,91.44,No,Uptrend,Bullish,3.06,High,Falling,"2 - Advancing (late, conf 84, 152d)","2 - Advancing, trend 82 but ADX shows no trend, this is a range - wait for alignment"
-7,KDDL,N,84.26,62.0,C,61.9,C,,77.7503,Overbought,99.02,,Uptrend,,,,Rising,"2 - Advancing (late, conf 84, 106d)","2 - Advancing, trend 84 but components disagree - wait for alignment"
-8,KRISHNADEF,N,85.83,62.0,C,50.0,C,,66.8861,Overbought,98.2,,Uptrend,,,,Falling,"2 - Advancing (early, conf 84, 4d)","2 - Advancing, trend 86 but components disagree - wait for alignment"
-9,ROSSTECH,N,86.67,62.0,C,73.33,B,,62.2039,Neutral,100.0,,Uptrend,,,,Falling,"2 - Advancing (late, conf 84, 191d)","2 - Advancing, trend 87 but components disagree - wait for alignment"
-10,PERSISTENT,N,81.66,62.0,C,60.64,C,,53.2316,Neutral,89.27,,Downtrend,,,,Rising,"2 - Advancing (early, conf 84, 28d)","2 - Advancing, trend 82 but components disagree - wait for alignment"
-11,SKYGOLD,Y,78.26,62.0,C,55.83,C,,58.9312,Neutral,100.0,,Downtrend,,,,Rising,"2 - Advancing (late, conf 84, 177d)","2 - Advancing, trend 78 but components disagree - wait for alignment"
-12,SONACOMS,N,72.31,62.0,C,68.92,B,,69.3668,Neutral,97.81,,Uptrend,,,,Rising,"2 - Advancing (late, conf 84, 182d)","2 - Advancing, trend 72 but components disagree - wait for alignment"
-13,YATHARTH,Y,84.56,62.0,C,56.7,C,,61.0978,Neutral,95.33,,Downtrend,,,,Falling,"2 - Advancing (late, conf 84, 117d)","2 - Advancing, trend 85 but ADX shows no trend, this is a range - wait for alignment"
-14,MCX,N,69.59,62.0,C,61.54,C,,66.7879,Neutral,100.0,,Uptrend,,,,Rising,"2 - Advancing (late, conf 84, 355d)","2 - Advancing, trend 70 but components disagree - wait for alignment"
-15,ETERNAL,N,71.38,62.0,C,60.26,C,,67.6921,Overbought,100.0,,Uptrend,,,,Rising,"2 - Advancing (early, conf 84, 62d)","2 - Advancing, trend 71 but components disagree - wait for alignment"
-16,NYKAA,N,84.36,62.0,C,69.11,B,,57.6728,Neutral,100.0,,Uptrend,,,,Rising,"2 - Advancing (late, conf 84, 146d)","2 - Advancing, trend 84 but components disagree - wait for alignment"
-17,LUMAXTECH,N,75.64,62.0,C,59.33,C,,72.2689,Overbought,100.0,,Uptrend,,,,Rising,"2 - Advancing (mid, conf 84, 56d)","2 - Advancing, trend 76 but components disagree - wait for alignment"
-18,INDHOTEL,N,86.06,62.0,C,81.96,A,,69.5925,Overbought,98.69,,Uptrend,,,,Rising,"2 - Advancing (mid, conf 84, 51d)","2 - Advancing, trend 86 but components disagree - wait for alignment"
-19,COFORGE,Y,83.45,62.0,C,61.62,C,,61.3837,Neutral,93.11,,Uptrend,,,,Rising,"2 - Advancing (mid, conf 84, 52d)","2 - Advancing, trend 83 but components disagree - wait for alignment"
-20,APOLLO,Y,76.79,62.0,C,58.95,C,,55.0294,Neutral,100.0,,Downtrend,,,,Rising,"2 - Advancing (late, conf 84, 112d)","2 - Advancing, trend 77 but components disagree - wait for alignment"
-21,YASHHV,Y,86.67,62.0,C,62.0,C,,60.4529,Neutral,100.0,,Uptrend,,,,Rising,"2 - Advancing (late, conf 84, 133d)","2 - Advancing, trend 87 but components disagree - wait for alignment"
-22,SANSERA,N,73.33,62.0,C,62.0,C,,46.3051,Oversold,100.0,,Uptrend,,,,Falling,"2 - Advancing (late, conf 84, 287d)","2 - Advancing, trend 73 but components disagree - wait for alignment"
-23,KALYANKJIL,Y,67.79,61.41,C,46.08,D,,59.9635,Neutral,97.42,,Uptrend,,,,Rising,"2 - Advancing (early, conf 84, 66d)","2 - Advancing, trend 68 but components disagree - wait for alignment"
-24,BLUESTARCO,N,73.49,60.57,C,58.35,C,,47.4164,Neutral,61.25,,Uptrend,,,,Falling,"4 - Declining (late, conf 50, 137d)","4 - Declining, but trend score 73 does not confirm short - no directional edge"
-25,NUVAMA,N,62.6,59.07,C,58.44,C,,65.5584,Neutral,96.72,,Uptrend,,,,Falling,"2 - Advancing (late, conf 84, 126d)","2 - Advancing, trend 63 but components disagree - wait for alignment"
-26,AETHER,Y,60.65,58.19,C,44.78,D,,57.3503,Neutral,90.81,,Downtrend,,,,Rising,"2 - Advancing (late, conf 84, 229d)","2 - Advancing, trend 61 but components disagree - wait for alignment"
-27,MANORAMA,N,60.57,58.16,C,51.56,C,,63.0229,Neutral,92.23,,Downtrend,,,,Falling,"2 - Advancing (mid, conf 84, 102d)","2 - Advancing, trend 61 but components disagree - wait for alignment"
-28,CENTUM,N,59.71,57.77,C,62.0,C,,59.645,Neutral,94.54,,Uptrend,,,,Falling,"2 - Advancing (late, conf 84, 135d)","2 - Advancing, but trend score 60 does not confirm long - no directional edge"
-29,QPOWER,N,59.0,57.45,C,61.34,C,,64.5108,Neutral,94.86,,Uptrend,,,,Rising,"2 - Advancing (late, conf 84, 141d)","2 - Advancing, but trend score 59 does not confirm long - no directional edge"
-30,AXISCADES,N,55.55,53.9,C,59.92,C,,55.8956,Neutral,56.49,,Uptrend,,,,Falling,"2 - Advancing (early, conf 64, 41d)","2 - Advancing, but trend score 56 does not confirm long - no directional edge"
-31,SBCL,N,50.56,51.65,C,48.89,D,,51.6862,Neutral,49.07,,Downtrend,,,,Rising,"2 - Advancing (late, conf 64, 128d)","2 - Advancing, but trend score 51 does not confirm long - no directional edge"
-32,PARAS,N,53.11,51.4,C,51.41,C,,48.0747,Neutral,56.66,,Uptrend,,,,Rising,"2 - Advancing (late, conf 50, 136d)","2 - Advancing, but trend score 53 does not confirm long - no directional edge"
-33,APOLLOHOSP,N,57.2,50.0,C,50.0,C,,54.0574,Neutral,79.1,,Uptrend,,,,Falling,"3 - Topping (mid, conf 40, 23d)",3 - Topping but stage confidence only 40 - regime not established
-34,ASTRAMICRO,N,55.59,50.0,C,42.61,D,,54.5696,Neutral,81.94,,Downtrend,,,,Rising,"3 - Topping (mid, conf 40, 9d)",3 - Topping but stage confidence only 40 - regime not established
-35,BSE,N,98.5,50.0,C,50.0,C,,69.4455,Neutral,96.78,,Uptrend,,,,Falling,"3 - Topping (late, conf 20, 52d)",3 - Topping but stage confidence only 20 - regime not established
-36,AVL,N,33.64,50.0,C,38.93,D,,54.006,Neutral,27.88,,Downtrend,,,,Rising,"3 - Topping (early, conf 40, 13d)",3 - Topping but stage confidence only 40 - regime not established
-37,BLACKBUCK,N,32.98,50.0,C,50.0,C,,42.2976,Neutral,13.53,,Downtrend,,,,Falling,"1 - Basing (early, conf 40, 9d)",1 - Basing but stage confidence only 40 - regime not established
-38,BORORENEW,N,4.34,50.0,C,50.0,C,,25.2396,Oversold,9.31,,Downtrend,,,,Rising,"1 - Basing (late, conf 20, 36d)",1 - Basing but stage confidence only 20 - regime not established
-39,ZOTA,Y,62.22,50.0,C,50.0,C,,52.7909,Neutral,85.51,,Uptrend,,,,Falling,"3 - Topping (late, conf 20, 28d)",3 - Topping but stage confidence only 20 - regime not established
-40,ZENTEC,N,73.88,50.0,C,50.0,C,,57.835,Neutral,78.64,,Uptrend,,,,Rising,"3 - Topping (mid, conf 40, 22d)",3 - Topping but stage confidence only 40 - regime not established
-41,POLYCAB,Y,15.13,50.0,C,50.0,C,,44.0083,Neutral,16.28,,Downtrend,,,,Falling,"3 - Topping (mid, conf 20, 13d)",3 - Topping but stage confidence only 20 - regime not established
-42,RATEGAIN,Y,27.38,50.0,C,32.86,E,,44.3297,Neutral,14.6,,Downtrend,,,,Rising,"3 - Topping (mid, conf 40, 9d)",3 - Topping but stage confidence only 40 - regime not established
-43,RACLGEAR,N,64.39,50.0,C,52.99,C,,59.7398,Neutral,79.91,,Uptrend,,,,Falling,"3 - Topping (early, conf 40, 9d)",3 - Topping but stage confidence only 40 - regime not established
-44,IKS,N,19.72,50.0,C,51.81,C,,55.1977,Neutral,13.69,,Uptrend,,,,Falling,"3 - Topping (mid, conf 40, 9d)",3 - Topping but stage confidence only 40 - regime not established
-45,EMMVEE,N,17.89,50.0,C,43.88,D,,29.3499,Oversold,38.33,,Downtrend,,,,Falling,"3 - Topping (mid, conf 40, 18d)",3 - Topping but stage confidence only 40 - regime not established
-46,BBOX,N,75.99,50.0,C,47.62,D,,55.5072,Neutral,98.01,,Downtrend,,,,Falling,"3 - Topping (mid, conf 20, 9d)",3 - Topping but stage confidence only 20 - regime not established
-47,KRN,Y,12.86,50.0,C,42.65,D,,41.7694,Neutral,14.65,,Downtrend,,,,Rising,"3 - Topping (mid, conf 40, 13d)",3 - Topping but stage confidence only 40 - regime not established
-48,KMEW,N,34.74,50.0,C,56.0,C,,60.2692,Neutral,17.29,,Uptrend,,,,Rising,"2 - Advancing (late, conf 30, 282d)",2 - Advancing but stage confidence only 30 - regime not established
-49,GVT&D,N,49.02,50.0,C,47.57,D,,54.0528,Neutral,76.47,,Uptrend,,,,Rising,"3 - Topping (late, conf 40, 27d)",3 - Topping but stage confidence only 40 - regime not established
-50,TARIL,N,57.33,50.0,C,52.52,C,,50.9344,Neutral,56.23,,Uptrend,,,,Falling,"3 - Topping (mid, conf 80, 13d)",3 - Topping - no new positions in a basing/topping stage
-51,SJS,N,59.72,50.0,C,45.81,D,,53.6556,Neutral,61.09,,Uptrend,,,,Falling,"3 - Topping (mid, conf 60, 18d)",3 - Topping - no new positions in a basing/topping stage
-52,DIXON,N,37.33,50.0,C,50.0,C,,59.3767,Neutral,39.16,,Uptrend,,,,Rising,"3 - Topping (mid, conf 40, 13d)",3 - Topping but stage confidence only 40 - regime not established
-53,ELECON,N,48.83,49.47,D,50.0,C,,58.0451,Neutral,47.5,,Uptrend,,,,Falling,"3 - Topping (early, conf 60, 9d)",3 - Topping - no new positions in a basing/topping stage
-54,DATAPATTNS,Y,44.6,47.57,D,41.0,D,,55.0191,Neutral,67.01,,Downtrend,,,,Rising,"3 - Topping (late, conf 60, 18d)",3 - Topping - no new positions in a basing/topping stage
-55,HFCL,Y,43.58,47.11,D,47.18,D,,40.6481,Neutral,38.74,,Downtrend,,,,Rising,"2 - Advancing (late, conf 50, 146d)","2 - Advancing, but trend score 44 does not confirm long - no directional edge"
-56,TECHNOE,N,48.37,46.87,D,34.47,E,,55.8498,Neutral,36.64,,Downtrend,,,,Rising,"4 - Declining (late, conf 74, 110d)","4 - Declining, but trend score 48 does not confirm short - no directional edge"
-57,AEROFLEX,Y,38.98,46.44,D,53.69,C,,53.9337,Neutral,48.03,,Downtrend,,,,Rising,"2 - Advancing (late, conf 64, 168d)","2 - Advancing, but trend score 39 does not confirm long - no directional edge"
-58,CGPOWER,N,39.75,45.39,D,36.03,D,,46.2391,Neutral,28.03,,Downtrend,,,,Rising,"3 - Topping (mid, conf 60, 18d)",3 - Topping - no new positions in a basing/topping stage
-59,APARINDS,N,38.07,44.63,D,32.38,E,,37.0623,Oversold,35.07,,Downtrend,,,,Rising,"2 - Advancing (mid, conf 50, 176d)","2 - Advancing, but trend score 38 does not confirm long - no directional edge"
-60,GRSE,N,42.82,44.37,D,45.42,D,,50.1132,Neutral,35.0,,Uptrend,,,,Rising,"4 - Declining (mid, conf 74, 23d)","4 - Declining, but trend score 43 does not confirm short - no directional edge"
-61,VINCOFE,Y,33.2,42.44,D,43.6,D,,51.1959,Neutral,42.58,,Downtrend,,,,Falling,"3 - Topping (early, conf 80, 9d)",3 - Topping - no new positions in a basing/topping stage
-62,PGEL,N,36.0,42.3,D,49.36,D,,61.2406,Neutral,43.24,,Uptrend,,,,Rising,"4 - Declining (late, conf 64, 33d)","4 - Declining, trend 36 but components disagree - wait for alignment"
-63,LLOYDSME,N,31.6,41.72,D,37.52,D,,47.5542,Neutral,39.14,,Downtrend,,,,Falling,"2 - Advancing (late, conf 50, 141d)","2 - Advancing, but trend score 32 does not confirm long - no directional edge"
-64,SKIPPER,N,31.49,41.67,D,45.22,D,,52.8398,Neutral,38.91,,Downtrend,,,,Falling,"3 - Topping (early, conf 80, 9d)",3 - Topping - no new positions in a basing/topping stage
-65,SYRMA,N,29.78,40.9,D,41.95,D,,47.432,Neutral,35.71,,Downtrend,,,,Falling,"2 - Advancing (late, conf 50, 140d)","2 - Advancing, but trend score 30 does not confirm long - no directional edge"
-66,AZAD,Y,29.7,40.87,D,41.32,D,,44.9458,Neutral,35.07,,Downtrend,,,,Falling,"2 - Advancing (late, conf 50, 142d)","2 - Advancing, but trend score 30 does not confirm long - no directional edge"
-67,STLTECH,N,28.8,40.46,D,45.39,D,,42.9082,Neutral,36.76,,Downtrend,,,,Rising,"2 - Advancing (late, conf 50, 182d)","2 - Advancing, but trend score 29 does not confirm long - no directional edge"
-68,MTARTECH,N,28.78,40.45,D,36.82,D,,45.5356,Neutral,35.07,,Downtrend,,,,Rising,"3 - Topping (early, conf 80, 9d)",3 - Topping - no new positions in a basing/topping stage
-69,NETWEB,N,28.07,40.13,D,37.2,D,,45.376,Neutral,25.85,,Downtrend,,,,Rising,"3 - Topping (mid, conf 60, 9d)",3 - Topping - no new positions in a basing/topping stage
-70,TDPOWERSYS,N,27.48,39.87,D,42.14,D,,39.4496,Oversold,35.07,,Downtrend,,,,Rising,"2 - Advancing (late, conf 50, 366d)","2 - Advancing, but trend score 27 does not confirm long - no directional edge"
-71,VMARCIND,N,46.3,39.39,D,41.76,D,Lags both,43.0841,Neutral,11.1,Yes,Uptrend,Bearish,-6.12,Normal,Falling,"4 - Declining (late, conf 84, 75d)","4 - Declining, but trend score 46 does not confirm short - no directional edge"
-72,ZAGGLE,N,33.55,39.2,D,38.0,D,,46.0159,Neutral,14.76,,Downtrend,,,,Rising,"4 - Declining (late, conf 84, 219d)","4 - Declining, trend 34 but components disagree - wait for alignment"
-73,THYROCARE,N,24.32,38.44,D,44.04,D,,44.4907,Neutral,43.17,,Uptrend,,,,Rising,"3 - Topping (mid, conf 60, 18d)",3 - Topping - no new positions in a basing/topping stage
-74,AURIONPRO,N,17.28,38.0,D,38.0,D,,46.435,Neutral,7.46,,Downtrend,,,,Rising,"4 - Declining (late, conf 84, 320d)","4 - Declining, trend 17 but components disagree - wait for alignment"
-75,V2RETAIL,Y,19.36,38.0,D,38.13,D,,62.1975,Overbought,0.0,,Downtrend,,,,Rising,"4 - Declining (early, conf 84, 13d)","4 - Declining, trend 19 but components disagree - wait for alignment"
-76,TAC,Y,8.58,38.0,D,33.48,E,Lags both,34.5496,Neutral,2.51,Yes,Downtrend,Strong Bearish,-10.38,Low,Falling,"4 - Declining (late, conf 84, 56d)","4 - Declining, trend 9 but ADX shows no trend, this is a range - wait for alignment"
-77,KPIGREEN,Y,22.54,38.0,D,36.78,D,,56.0932,Neutral,35.96,,Downtrend,,,,Rising,"4 - Declining (late, conf 74, 113d)","4 - Declining, trend 23 but ADX shows no trend, this is a range - wait for alignment"
-78,KAYNES,Y,17.14,38.0,D,42.41,D,,50.2134,Neutral,0.21,,Uptrend,,,,Rising,"4 - Declining (early, conf 84, 23d)","4 - Declining, trend 17 but components disagree - wait for alignment"
-79,VMM,N,19.25,38.0,D,28.71,E,,49.2078,Neutral,25.88,,Downtrend,,,,Falling,"4 - Declining (late, conf 84, 187d)","4 - Declining, trend 19 but ADX shows no trend, this is a range - wait for alignment"
-80,NLCINDIA,N,24.19,38.0,D,44.91,D,,48.9986,Neutral,11.44,,Downtrend,,,,Rising,"4 - Declining (early, conf 84, 9d)","4 - Declining, trend 24 but components disagree - wait for alignment"
-81,ATLANTAELE,N,22.14,37.46,D,36.6,D,,37.6819,Neutral,35.07,,Downtrend,,,,Falling,"3 - Topping (early, conf 80, 9d)",3 - Topping - no new positions in a basing/topping stage
-82,CARTRADE,N,21.75,37.29,D,39.5,D,,32.9267,Oversold,46.61,,Downtrend,,,,Rising,"2 - Advancing (early, conf 50, 52d)","2 - Advancing, but trend score 22 does not confirm long - no directional edge"
-83,MUTHOOTFIN,N,21.14,35.61,D,30.52,E,,44.2204,Neutral,45.31,,Downtrend,,,,Rising,"4 - Declining (mid, conf 64, 97d)","4 - Declining, trend 21 with bearish confirmed, momentum and volume confirm"
-84,RRKABEL,N,12.05,32.92,E,21.86,E,,26.7327,Oversold,25.82,,Downtrend,,,,Rising,"3 - Topping (mid, conf 60, 9d)",3 - Topping - no new positions in a basing/topping stage
-85,JSLL,Y,0.98,24.54,E,25.0,E,,44.5327,Neutral,0.0,,Downtrend,,,,Rising,"4 - Declining (late, conf 84, 155d)","4 - Declining, trend 1 with bearish confirmed, momentum and volume confirm; late in the stage, reduce size"
-86,IMFA,N,0.46,24.31,E,50.0,C,,38.8255,Neutral,0.98,,Downtrend,,,,Rising,"4 - Declining (early, conf 84, 4d)","4 - Declining, trend 0 with bearish confirmed, momentum and volume confirm; early in the stage"
+1,SGMART,N,100.0,75.9,B,78.25,B,,75.679,Overbought,100.0,,Uptrend,,,,Rising,"2 - Advancing (late, conf 84, 142d)","2 - Advancing, trend 100 with bullish confirmed, momentum and volume confirm; late in the stage, reduce size"
+2,BSE,N,98.57,75.26,B,50.0,C,,69.4455,Neutral,96.93,,Uptrend,,,,Falling,"2 - Advancing (early, conf 84, 1d)","2 - Advancing, trend 99 with bullish confirmed, momentum and volume confirm; early in the stage"
+3,HBLENGINE,N,85.39,69.33,B,70.51,B,,65.6406,Overbought,76.59,,Uptrend,,,,Falling,"2 - Advancing (early, conf 84, 15d)","2 - Advancing, trend 85 with bullish confirmed, momentum and volume confirm; early in the stage"
+4,TRENT,Y,88.69,68.81,B,55.79,C,,61.1597,Neutral,75.77,,Uptrend,,,,Rising,"2 - Advancing (early, conf 64, 6d)","2 - Advancing, trend 89 with bullish confirmed, momentum and volume confirm; early in the stage"
+5,BLUESTARCO,N,76.8,62.06,C,60.91,C,,47.4164,Neutral,65.33,,Uptrend,,,,Rising,"4 - Declining (late, conf 50, 139d)","4 - Declining, but trend score 77 does not confirm short - no directional edge"
+6,ATHERENERG,Y,73.33,62.0,C,67.58,B,,69.0029,Neutral,100.0,,Uptrend,,,,Rising,"2 - Advancing (late, conf 84, 227d)","2 - Advancing, trend 73 but components disagree - wait for alignment"
+7,AIMTRON,Y,79.55,62.0,C,58.29,C,Leads both,52.5417,Neutral,86.13,No,Uptrend,Neutral,-1.31,High,Falling,"2 - Advancing (late, conf 84, 153d)","2 - Advancing, trend 80 but ADX shows no trend, this is a range - wait for alignment"
+8,KDDL,N,86.67,62.0,C,62.0,C,,77.7503,Overbought,100.0,,Uptrend,,,,Rising,"2 - Advancing (late, conf 84, 108d)","2 - Advancing, trend 87 but components disagree - wait for alignment"
+9,KRISHNADEF,N,85.92,62.0,C,56.0,C,,66.8861,Overbought,98.41,,Uptrend,,,,Falling,"2 - Advancing (early, conf 84, 6d)","2 - Advancing, trend 86 but components disagree - wait for alignment"
+10,SANSERA,N,73.33,62.0,C,62.0,C,,46.3051,Oversold,100.0,,Uptrend,,,,Falling,"2 - Advancing (late, conf 84, 289d)","2 - Advancing, trend 73 but components disagree - wait for alignment"
+11,ROSSTECH,N,86.67,62.0,C,67.93,B,,62.2039,Neutral,100.0,,Uptrend,,,,Falling,"2 - Advancing (late, conf 84, 193d)","2 - Advancing, trend 87 but components disagree - wait for alignment"
+12,NUVAMA,N,76.5,62.0,C,58.54,C,,65.5584,Neutral,95.93,,Uptrend,,,,Falling,"2 - Advancing (late, conf 84, 128d)","2 - Advancing, trend 76 but components disagree - wait for alignment"
+13,PERSISTENT,N,79.5,62.0,C,62.0,C,,53.2316,Neutral,84.64,,Downtrend,,,,Rising,"2 - Advancing (early, conf 84, 30d)","2 - Advancing, trend 80 but components disagree - wait for alignment"
+14,MCX,N,70.34,62.0,C,61.6,C,,66.7879,Neutral,100.0,,Uptrend,,,,Rising,"2 - Advancing (late, conf 84, 357d)","2 - Advancing, trend 70 but components disagree - wait for alignment"
+15,MANORAMA,N,69.63,62.0,C,51.19,C,,63.0229,Neutral,81.05,,Downtrend,,,,Falling,"2 - Advancing (mid, conf 84, 104d)","2 - Advancing, trend 70 but components disagree - wait for alignment"
+16,ETERNAL,N,73.24,62.0,C,61.61,C,,67.6921,Overbought,100.0,,Uptrend,,,,Rising,"2 - Advancing (early, conf 84, 64d)","2 - Advancing, trend 73 but components disagree - wait for alignment"
+17,INDHOTEL,N,86.12,62.0,C,72.36,B,,69.5925,Overbought,98.82,,Uptrend,,,,Rising,"2 - Advancing (mid, conf 84, 53d)","2 - Advancing, trend 86 but components disagree - wait for alignment"
+18,LUMAXTECH,N,77.21,62.0,C,60.06,C,,72.2689,Overbought,100.0,,Uptrend,,,,Rising,"2 - Advancing (mid, conf 84, 58d)","2 - Advancing, trend 77 but components disagree - wait for alignment"
+19,KALYANKJIL,Y,69.16,62.0,C,47.53,D,,59.9635,Neutral,99.06,,Uptrend,,,,Rising,"2 - Advancing (early, conf 84, 68d)","2 - Advancing, trend 69 but components disagree - wait for alignment"
+20,NYKAA,N,84.35,62.0,C,62.0,C,,57.6728,Neutral,99.18,,Uptrend,,,,Rising,"2 - Advancing (late, conf 84, 148d)","2 - Advancing, trend 84 but components disagree - wait for alignment"
+21,APOLLO,Y,77.35,62.0,C,60.5,C,,55.0294,Neutral,100.0,,Downtrend,,,,Rising,"2 - Advancing (late, conf 84, 114d)","2 - Advancing, trend 77 but components disagree - wait for alignment"
+22,COFORGE,Y,83.75,62.0,C,60.31,C,,61.3837,Neutral,93.75,,Uptrend,,,,Rising,"2 - Advancing (mid, conf 84, 54d)","2 - Advancing, trend 84 but components disagree - wait for alignment"
+23,BBOX,N,75.4,62.0,C,50.14,C,,55.5072,Neutral,97.2,,Downtrend,,,,Falling,"2 - Advancing (early, conf 84, 1d)","2 - Advancing, trend 75 but components disagree - wait for alignment"
+24,YASHHV,Y,86.04,62.0,C,62.0,C,,60.4529,Neutral,98.65,,Uptrend,,,,Falling,"2 - Advancing (late, conf 84, 135d)","2 - Advancing, trend 86 but components disagree - wait for alignment"
+25,SONACOMS,N,83.48,62.0,C,66.99,B,,69.3668,Neutral,93.17,,Uptrend,,,,Rising,"2 - Advancing (late, conf 84, 184d)","2 - Advancing, trend 83 but components disagree - wait for alignment"
+26,YATHARTH,Y,86.34,62.0,C,57.01,C,,61.0978,Neutral,96.84,,Downtrend,,,,Falling,"2 - Advancing (late, conf 84, 119d)","2 - Advancing, trend 86 but ADX shows no trend, this is a range - wait for alignment"
+27,ASTRAMICRO,N,70.18,61.48,C,43.32,D,,54.5696,Neutral,82.87,,Downtrend,,,,Rising,"2 - Advancing (early, conf 74, 1d)","2 - Advancing, trend 70 but components disagree - wait for alignment"
+28,CPPLUS,N,65.68,60.46,C,60.62,C,,46.342,Neutral,86.0,,Downtrend,,,,Falling,"2 - Advancing (late, conf 84, 165d)","2 - Advancing, trend 66 but components disagree - wait for alignment"
+29,RACLGEAR,N,65.24,59.26,C,51.82,C,,59.7398,Neutral,79.66,,Uptrend,,,,Falling,"2 - Advancing (early, conf 74, 1d)","2 - Advancing, trend 65 but components disagree - wait for alignment"
+30,SKYGOLD,Y,62.89,59.2,C,64.21,C,,58.9312,Neutral,90.05,,Downtrend,,,,Rising,"2 - Advancing (late, conf 84, 179d)","2 - Advancing, trend 63 but components disagree - wait for alignment"
+31,AETHER,Y,61.83,58.72,C,52.21,C,,57.3503,Neutral,92.73,,Downtrend,,,,Rising,"2 - Advancing (late, conf 84, 231d)","2 - Advancing, trend 62 but components disagree - wait for alignment"
+32,QPOWER,N,61.04,58.37,C,58.89,C,,64.5108,Neutral,96.32,,Uptrend,,,,Rising,"2 - Advancing (late, conf 84, 143d)","2 - Advancing, trend 61 but components disagree - wait for alignment"
+33,CENTUM,N,60.91,58.31,C,57.6,C,,59.645,Neutral,96.04,,Uptrend,,,,Falling,"2 - Advancing (late, conf 84, 137d)","2 - Advancing, trend 61 but components disagree - wait for alignment"
+34,AXISCADES,N,56.37,54.27,C,58.15,C,,55.8956,Neutral,57.63,,Uptrend,,,,Falling,"2 - Advancing (early, conf 64, 43d)","2 - Advancing, but trend score 56 does not confirm long - no directional edge"
+35,SBCL,N,49.76,51.29,C,49.91,D,,51.6862,Neutral,47.23,,Downtrend,,,,Rising,"2 - Advancing (late, conf 64, 130d)","2 - Advancing, but trend score 50 does not confirm long - no directional edge"
+36,APOLLOHOSP,N,57.33,50.0,C,50.0,C,,54.0574,Neutral,81.05,,Uptrend,,,,Rising,"3 - Topping (mid, conf 40, 25d)",3 - Topping but stage confidence only 40 - regime not established
+37,AVL,N,31.54,50.0,C,46.52,D,,54.006,Neutral,27.48,,Downtrend,,,,Rising,"3 - Topping (early, conf 40, 15d)",3 - Topping but stage confidence only 40 - regime not established
+38,BORORENEW,N,0.42,50.0,C,50.0,C,,25.2396,Oversold,0.89,,Downtrend,,,,Rising,"1 - Basing (late, conf 20, 38d)",1 - Basing but stage confidence only 20 - regime not established
+39,CGPOWER,N,34.95,50.0,C,37.77,D,,46.2391,Neutral,17.75,,Downtrend,,,,Rising,"3 - Topping (mid, conf 40, 20d)",3 - Topping but stage confidence only 40 - regime not established
+40,RRKABEL,N,7.69,50.0,C,26.97,E,,26.7327,Oversold,16.48,,Downtrend,,,,Rising,"3 - Topping (mid, conf 40, 11d)",3 - Topping but stage confidence only 40 - regime not established
+41,ZENTEC,N,59.94,50.0,C,50.0,C,,57.835,Neutral,76.21,,Uptrend,,,,Rising,"3 - Topping (mid, conf 40, 24d)",3 - Topping but stage confidence only 40 - regime not established
+42,SJS,N,62.03,50.0,C,47.33,D,,53.6556,Neutral,66.97,,Uptrend,,,,Falling,"3 - Topping (mid, conf 60, 20d)",3 - Topping - no new positions in a basing/topping stage
+43,ZOTA,Y,63.56,50.0,C,50.0,C,,52.7909,Neutral,88.23,,Uptrend,,,,Falling,"3 - Topping (late, conf 20, 30d)",3 - Topping but stage confidence only 20 - regime not established
+44,IKS,N,19.74,50.0,C,44.52,D,,55.1977,Neutral,13.73,,Uptrend,,,,Falling,"3 - Topping (mid, conf 40, 11d)",3 - Topping but stage confidence only 40 - regime not established
+45,GVT&D,N,49.79,50.0,C,48.79,D,,54.0528,Neutral,78.13,,Uptrend,,,,Rising,"1 - Basing (early, conf 40, 1d)",1 - Basing but stage confidence only 40 - regime not established
+46,BLACKBUCK,N,28.73,50.0,C,50.0,C,,42.2976,Neutral,4.42,,Downtrend,,,,Falling,"1 - Basing (early, conf 20, 11d)",1 - Basing but stage confidence only 20 - regime not established
+47,POLYCAB,Y,12.01,50.0,C,50.0,C,,44.0083,Neutral,5.84,,Downtrend,,,,Falling,"3 - Topping (mid, conf 20, 15d)",3 - Topping but stage confidence only 20 - regime not established
+48,KMEW,N,34.74,50.0,C,52.82,C,,60.2692,Neutral,17.29,,Uptrend,,,,Rising,"2 - Advancing (late, conf 30, 284d)",2 - Advancing but stage confidence only 30 - regime not established
+49,KRN,Y,12.84,50.0,C,42.61,D,,41.7694,Neutral,14.11,,Downtrend,,,,Rising,"3 - Topping (mid, conf 40, 15d)",3 - Topping but stage confidence only 40 - regime not established
+50,RATEGAIN,Y,27.68,50.0,C,40.27,D,,44.3297,Neutral,14.25,,Downtrend,,,,Rising,"3 - Topping (mid, conf 40, 11d)",3 - Topping but stage confidence only 40 - regime not established
+51,TARIL,N,52.94,50.0,C,52.67,C,,50.9344,Neutral,47.81,,Uptrend,,,,Falling,"3 - Topping (mid, conf 80, 15d)",3 - Topping - no new positions in a basing/topping stage
+52,DIXON,N,37.55,50.0,C,50.0,C,,59.3767,Neutral,39.16,,Uptrend,,,,Rising,"3 - Topping (mid, conf 40, 15d)",3 - Topping but stage confidence only 40 - regime not established
+53,EMMVEE,N,18.86,50.0,C,43.86,D,,29.3499,Oversold,40.41,,Downtrend,,,,Falling,"3 - Topping (mid, conf 40, 20d)",3 - Topping but stage confidence only 40 - regime not established
+54,GRSE,N,50.79,47.96,D,42.52,D,,50.1132,Neutral,25.0,,Uptrend,,,,Rising,"4 - Declining (mid, conf 74, 25d)","4 - Declining, but trend score 51 does not confirm short - no directional edge"
+55,DATAPATTNS,Y,45.23,47.85,D,41.02,D,,55.0191,Neutral,68.35,,Downtrend,,,,Rising,"3 - Topping (late, conf 60, 20d)",3 - Topping - no new positions in a basing/topping stage
+56,PGEL,N,42.29,46.53,D,46.5,D,,61.2406,Neutral,57.3,,Uptrend,,,,Rising,"2 - Advancing (early, conf 50, 1d)","2 - Advancing, but trend score 42 does not confirm long - no directional edge"
+57,HFCL,Y,41.7,46.27,D,52.06,C,,40.6481,Neutral,35.07,,Downtrend,,,,Rising,"2 - Advancing (late, conf 50, 148d)","2 - Advancing, but trend score 42 does not confirm long - no directional edge"
+58,AEROFLEX,Y,38.18,46.08,D,56.42,C,,53.9337,Neutral,47.21,,Downtrend,,,,Rising,"2 - Advancing (late, conf 64, 170d)","2 - Advancing, but trend score 38 does not confirm long - no directional edge"
+59,PARAS,N,38.3,44.73,D,52.51,C,,48.0747,Neutral,53.49,,Uptrend,,,,Falling,"2 - Advancing (late, conf 50, 138d)","2 - Advancing, but trend score 38 does not confirm long - no directional edge"
+60,APARINDS,N,38.17,44.68,D,38.48,D,,37.0623,Oversold,35.07,,Downtrend,,,,Rising,"2 - Advancing (mid, conf 50, 178d)","2 - Advancing, but trend score 38 does not confirm long - no directional edge"
+61,ELECON,N,36.22,43.8,D,50.0,C,,58.0451,Neutral,49.04,,Uptrend,,,,Falling,"3 - Topping (mid, conf 60, 11d)",3 - Topping - no new positions in a basing/topping stage
+62,LLOYDSME,N,30.6,41.27,D,41.76,D,,47.5542,Neutral,37.01,,Downtrend,,,,Falling,"3 - Topping (early, conf 80, 1d)",3 - Topping - no new positions in a basing/topping stage
+63,SYRMA,N,30.27,41.12,D,47.46,D,,47.432,Neutral,36.3,,Downtrend,,,,Falling,"2 - Advancing (late, conf 50, 142d)","2 - Advancing, but trend score 30 does not confirm long - no directional edge"
+64,THYROCARE,N,29.92,40.96,D,46.93,D,,44.4907,Neutral,53.52,,Uptrend,,,,Rising,"3 - Topping (mid, conf 80, 20d)",3 - Topping - no new positions in a basing/topping stage
+65,AZAD,Y,29.7,40.87,D,41.04,D,,44.9458,Neutral,35.07,,Downtrend,,,,Falling,"2 - Advancing (late, conf 50, 144d)","2 - Advancing, but trend score 30 does not confirm long - no directional edge"
+66,SKIPPER,N,29.51,40.78,D,43.15,D,,52.8398,Neutral,34.66,,Downtrend,,,,Falling,"3 - Topping (early, conf 80, 11d)",3 - Topping - no new positions in a basing/topping stage
+67,MTARTECH,N,29.0,40.55,D,41.59,D,,45.5356,Neutral,35.07,,Downtrend,,,,Rising,"3 - Topping (early, conf 80, 11d)",3 - Topping - no new positions in a basing/topping stage
+68,TDPOWERSYS,N,28.93,40.52,D,38.89,D,,39.4496,Oversold,36.28,,Downtrend,,,,Rising,"3 - Topping (early, conf 80, 1d)",3 - Topping - no new positions in a basing/topping stage
+69,VINCOFE,Y,28.92,40.51,D,41.96,D,,51.1959,Neutral,33.4,,Downtrend,,,,Falling,"3 - Topping (mid, conf 80, 11d)",3 - Topping - no new positions in a basing/topping stage
+70,STLTECH,N,28.02,40.11,D,46.04,D,,42.9082,Neutral,35.07,,Downtrend,,,,Rising,"2 - Advancing (late, conf 50, 184d)","2 - Advancing, but trend score 28 does not confirm long - no directional edge"
+71,TECHNOE,N,33.22,40.05,D,41.38,D,,55.8498,Neutral,35.17,,Downtrend,,,,Rising,"4 - Declining (late, conf 74, 112d)","4 - Declining, trend 33 but components disagree - wait for alignment"
+72,V2RETAIL,Y,31.74,38.38,D,38.0,D,,62.1975,Overbought,0.0,,Downtrend,,,,Rising,"4 - Declining (early, conf 84, 15d)","4 - Declining, trend 32 but components disagree - wait for alignment"
+73,VMARCIND,N,32.06,38.0,D,44.6,D,Lags both,36.6221,Neutral,1.26,Yes,Uptrend,Strong Bearish,-11.88,Normal,Falling,"4 - Declining (late, conf 84, 76d)","4 - Declining, trend 32 but components disagree - wait for alignment"
+74,AURIONPRO,N,14.22,38.0,D,38.0,D,,46.435,Neutral,1.34,,Downtrend,,,,Rising,"4 - Declining (late, conf 84, 322d)","4 - Declining, trend 14 but components disagree - wait for alignment"
+75,TAC,Y,6.71,38.0,D,33.3,E,Lags both,30.7197,Oversold,0.0,Yes,Downtrend,Strong Bearish,-15.09,Low,Falling,"4 - Declining (late, conf 84, 57d)","4 - Declining, trend 7 but ADX shows no trend, this is a range - wait for alignment"
+76,MUTHOOTFIN,N,24.02,38.0,D,32.34,E,,44.2204,Neutral,22.91,,Downtrend,,,,Rising,"4 - Declining (mid, conf 74, 99d)","4 - Declining, trend 24 but components disagree - wait for alignment"
+77,KAYNES,Y,18.87,38.0,D,38.52,D,,50.2134,Neutral,0.17,,Uptrend,,,,Rising,"4 - Declining (early, conf 84, 25d)","4 - Declining, trend 19 but components disagree - wait for alignment"
+78,KPIGREEN,Y,23.45,38.0,D,36.68,D,,56.0932,Neutral,35.58,,Downtrend,,,,Rising,"4 - Declining (late, conf 74, 115d)","4 - Declining, trend 23 but ADX shows no trend, this is a range - wait for alignment"
+79,NLCINDIA,N,21.22,38.0,D,38.6,D,,48.9986,Neutral,5.47,,Downtrend,,,,Rising,"4 - Declining (early, conf 84, 11d)","4 - Declining, trend 21 but components disagree - wait for alignment"
+80,VMM,N,17.23,38.0,D,27.7,E,,49.2078,Neutral,18.26,,Downtrend,,,,Falling,"4 - Declining (late, conf 84, 189d)","4 - Declining, trend 17 but ADX shows no trend, this is a range - wait for alignment"
+81,SHILCTECH,N,14.43,38.0,D,50.0,C,,37.0228,Neutral,2.34,,Uptrend,,,,Rising,"4 - Declining (early, conf 84, 1d)","4 - Declining, trend 14 but components disagree - wait for alignment"
+82,ZAGGLE,N,29.15,38.0,D,38.0,D,,46.0159,Neutral,5.33,,Downtrend,,,,Rising,"4 - Declining (late, conf 84, 221d)","4 - Declining, trend 29 but components disagree - wait for alignment"
+83,ATLANTAELE,N,22.23,37.5,D,42.24,D,,37.6819,Neutral,35.07,,Downtrend,,,,Falling,"3 - Topping (mid, conf 80, 11d)",3 - Topping - no new positions in a basing/topping stage
+84,CARTRADE,N,21.84,37.33,D,31.46,E,,32.9267,Oversold,46.81,,Downtrend,,,,Rising,"2 - Advancing (early, conf 50, 54d)","2 - Advancing, but trend score 22 does not confirm long - no directional edge"
+85,NETWEB,N,17.58,35.41,D,40.48,D,,45.376,Neutral,29.12,,Downtrend,,,,Rising,"3 - Topping (mid, conf 60, 11d)",3 - Topping - no new positions in a basing/topping stage
+86,JSLL,Y,4.27,26.02,E,26.52,E,,44.5327,Neutral,0.0,,Downtrend,,,,Rising,"4 - Declining (late, conf 84, 157d)","4 - Declining, trend 4 with bearish confirmed, momentum and volume confirm; late in the stage, reduce size"
+87,IMFA,N,0.42,24.29,E,37.8,D,,38.8255,Neutral,0.9,,Downtrend,,,,Rising,"4 - Declining (early, conf 84, 6d)","4 - Declining, trend 0 with bearish confirmed, momentum and volume confirm; early in the stage"
